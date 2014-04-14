@@ -22,6 +22,13 @@ h1.title {
   display: block;
   float: left; }
 
+  h2.title {
+  font-size: 45px;
+  font-weight: bold;
+  margin: 0;
+  display: block;
+  float: left; }
+
 @-webkit-keyframes move-up {
   0% {
     top: 25px;
@@ -307,64 +314,92 @@ hr {
   transition-property: transform; }
   .tile .tile-inner {
     border-radius: 3px;
-    background: #eee4da;
+    /*background: #eee4da;*/
     text-align: center;
     font-weight: bold;
-    z-index: 10;
+    /*z-index: 10;*/
+    
+
     font-size: 55px; }
   .tile.tile-2 .tile-inner {
-    background: #eee4da;
+    background: url("../tileimage/2.png");
+    background-size: 107px 107px;
+    /*background: #eee4da;*/
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-4 .tile-inner {
-    background: #ede0c8;
+    background: url("../tileimage/4.png");
+    background-size: 107px 107px;
+    /*background: #ede0c8;*/
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 .tile-inner {
+    background: url("../tileimage/8.png");
+    background-size: 107px 107px;
     color: #f9f6f2;
-    background: #f2b179; }
+    /*background: #f2b179;* */
+    }
   .tile.tile-16 .tile-inner {
+    background: url("../tileimage/16.png");
+    background-size: 107px 107px;
     color: #f9f6f2;
-    background: #f59563; }
+    /*background: #f59563; */
+  }
   .tile.tile-32 .tile-inner {
+    background: url("../tileimage/32.png");
+    background-size: 107px 107px;
     color: #f9f6f2;
-    background: #f67c5f; }
+    /*background: #f67c5f;*/
+  }
   .tile.tile-64 .tile-inner {
+    background: url("../tileimage/64.png");
+    background-size: 107px 107px;
     color: #f9f6f2;
-    background: #f65e3b; }
+    /*background: #f65e3b;*/
+  }
   .tile.tile-128 .tile-inner {
+    background: url("../tileimage/128.png");
+    background-size: 107px 107px;
     color: #f9f6f2;
-    background: #edcf72;
+    /*background: #edcf72;*/
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-128 .tile-inner {
         font-size: 25px; } }
   .tile.tile-256 .tile-inner {
+    background: url("../tileimage/256.png");
+    background-size: 107px 107px;
     color: #f9f6f2;
-    background: #edcc61;
+    /*background: #edcc61;*/
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-256 .tile-inner {
         font-size: 25px; } }
   .tile.tile-512 .tile-inner {
+    background: url("../tileimage/512.png");
+    background-size: 107px 107px;
     color: #f9f6f2;
-    background: #edc850;
+    /*background: #edc850;*/
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-512 .tile-inner {
         font-size: 25px; } }
   .tile.tile-1024 .tile-inner {
+    background: url("../tileimage/1024.png");
+    background-size: 107px 107px;
     color: #f9f6f2;
-    background: #edc53f;
+    /*background: #edc53f;*/
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
     font-size: 35px; }
     @media screen and (max-width: 520px) {
       .tile.tile-1024 .tile-inner {
         font-size: 15px; } }
   .tile.tile-2048 .tile-inner {
+    background: url("../tileimage/2048.png");
+    background-size: 107px 107px;
     color: #f9f6f2;
-    background: #edc22e;
+    /*background: #edc22e;*/
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 35px; }
     @media screen and (max-width: 520px) {
@@ -372,7 +407,7 @@ hr {
         font-size: 15px; } }
   .tile.tile-super .tile-inner {
     color: #f9f6f2;
-    background: #3c3a32;
+    /*background: #3c3a32;*/
     font-size: 30px; }
     @media screen and (max-width: 520px) {
       .tile.tile-super .tile-inner {
@@ -484,7 +519,8 @@ hr {
 .game-intro {
   float: left;
   line-height: 42px;
-  margin-bottom: 0; }
+  margin-bottom: 0; 
+font-size: 15px;}
 
 .restart-button {
   display: inline-block;
@@ -513,6 +549,11 @@ hr {
   h1.title {
     font-size: 27px;
     margin-top: 15px; }
+
+  h2.title{
+    font-size: 22px;
+    margin-top: 15px;
+  }
 
   .container {
     width: 280px;
